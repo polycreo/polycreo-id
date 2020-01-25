@@ -61,6 +61,8 @@ dependencies {
 	// test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'com.jayway.jsonpath:json-path-assert'
+	testImplementation 'org.springframework.data:spring-data-commons'
+	testImplementation 'javax.persistence:javax.persistence-api'
 }
 
 bootJar {
